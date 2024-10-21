@@ -102,7 +102,7 @@ const HomeScreen = () => {
       navigate("/data", { state: { datasetId, apiData: data } });
     } catch (error) {
       console.error("Error fetching dataset details:", error);
-      alert("Error fetching dataset details. Please try again.");
+      alert("Error fetching dataset details. Please try again!!");
     }
   };
 
